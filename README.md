@@ -11,5 +11,5 @@ Technologies used:
 + Creating a Parallax Effect Full Width Sections
 
 ** **
-[Link to the finished project]()
+[Link to the finished project](https://maria-digital.github.io/AI-Solutions/)
 
