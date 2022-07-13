@@ -3,7 +3,7 @@ The main block of the site with a Parallax Effect Full Width Sections
 
 
 Technologies used:
-+ Landing layout with html, css.
++ Landing layout with html, css, js.
 + Responsive layout from Zeppelin.
 + Creation of a mobile version.
 + Methodology BEM.
