@@ -45,9 +45,10 @@ li {
 
 .intro {
     background-image: url(../images/pattern-2-row.svg);
+    background-repeat: no-repeat;
     padding-top: 54px;
     margin-top: 144px;
-    padding-bottom: 55px;
+    padding-bottom: 80px;
 }
 
 .wrapper {
@@ -124,6 +125,11 @@ li {
     width: 557px;
 }
 
+.block__btn {
+    display: block;
+    margin-top: 15px;
+}
+
 .block-color {
     background-color: #2f4858;
     color: #fff;
@@ -173,6 +179,10 @@ li {
     .wrapper {
         max-width: 900px;
     }
+
+    .block {
+        height: 850px;
+    }
 }
 
 @media (max-width: 996px) {
@@ -186,18 +196,19 @@ li {
     }
 
     .block {
-        background-size: 1850px;
+        height: 900px;
     }
+
+    .block, .food, .management  {
+        background-image: none;
+    }
+
+    .transportation, .equip {
+        background-image: url(../images/grid.svg);
+   }
 
     .block__text {
         max-width: 500px;
-    }
-}
-
-@media (max-width: 990px) {
-
-    .block {
-        background-size: 1650px;
     }
 }
 
@@ -206,22 +217,10 @@ li {
     .wrapper {
         max-width: 700px;
     }
-
-    .block {
-        background-size: 1550px;
-    }
 }
 
 @media (max-width: 743px) {
 
-    .block, .food, .management {
-        background-image: none;
-    }
-
-    .transportation, .equip {
-        background-image: url(../images/grid.svg);
-   }
-   
    .intro__subtitle {
     max-width: 500px;
     display: block;
@@ -243,7 +242,7 @@ li {
     }
 
     .block {
-        height: 610px;
+        height: 700px;
     }
 
     .block__left {
@@ -264,9 +263,13 @@ li {
     .blockg__lists {
         margin: 0 auto;
     }
+
+    .block__btn {
+        margin: 0 auto;
+    }
 }
 
-@media (max-width: 743px) {
+@media (max-width: 643px) {
 
     h2 {
         width: 400px;
@@ -291,7 +294,7 @@ li {
     }
 
     .block {
-        height: 800px;
+        height: 850px;
     }
 
     .block__text {
@@ -310,10 +313,6 @@ li {
 
 @media (max-width: 432px) {
 
-    .block {
-        height: 870px;
-    }
-
     .intro__subtitle {
         font-size: 1.1rem;
     }
@@ -329,9 +328,6 @@ li {
     h2 {
         max-width: 350px;
     }
-}
-
-@media (max-width: 432px) {
 
     .intro__text, .intro__subtitle, .intro__title, .block__text {
         width: 300px;
@@ -342,8 +338,15 @@ li {
     }
 
     .block {
-        height: 970px;
+        height: 1050px;
     }
-    
+
+    .block__btn {
+        margin: 0 auto;
+    }
+
+    .blockg__lists {
+        margin-bottom: 15px;
+    }
 }
 
